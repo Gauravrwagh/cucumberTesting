@@ -6,7 +6,7 @@
       <class name="runner.Login_MultiData_TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="2 1 5 0 3 4"/>
+          <include name="runScenario" invocation-numbers="4 5"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- runner.Login_MultiData_TestRunner -->
