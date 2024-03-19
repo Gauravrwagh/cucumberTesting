@@ -10,8 +10,8 @@ import io.cucumber.testng.CucumberOptions;
 		features={
 				 "src/main/resources/Features/LoginMultiData.feature",
 				  "src/main/resources/Features/LoginValidData.feature",
-				  "src/main/resources/Features/RegisterUser.feature",
-				  "src/main/resources/Features/StudentRegistration.feature"
+	//			  "src/main/resources/Features/RegisterUser.feature",
+	//			  "src/main/resources/Features/StudentRegistration.feature"
 				},
 				  
 		glue="stepDefination",

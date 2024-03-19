@@ -12,8 +12,8 @@ public class ExpliciteWaitUtil {
 
 
 	// ExpliciteWait
-		public static WebElement waitForElementVisibility(WebDriver driver, By locator, Duration timeoutInSeconds) {
-	        WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
+		public static WebElement waitForElementVisibility(WebDriver driver, By locator, int time) {
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));
 	        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	    }
 

@@ -18,7 +18,8 @@ public class TestBase {
 	public static  WebDriver driver;
 	private static Properties prop;
 
-	public TestBase() {
+	
+	public  TestBase() {
 		try {
 			prop = new Properties();
 			InputStream input = getClass().getClassLoader().getResourceAsStream("./config.properties");
@@ -34,8 +35,8 @@ public class TestBase {
 	}
 
 	public static void initialization() {
-		String browserName = prop.getProperty("browser");
 
+		String browserName = prop.getProperty("browser");
         if (browserName.equals("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();

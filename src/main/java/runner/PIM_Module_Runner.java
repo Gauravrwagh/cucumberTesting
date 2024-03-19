@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features="src/main/resources/Features/LoginValidData.feature",
+		features="src/main/resources/Features/TestPIMModule.feature",
 		glue="stepDefination",
 		monochrome = true,
 	    dryRun = false,
@@ -17,6 +17,6 @@ import io.cucumber.testng.CucumberOptions;
 				}
 		)
 @Test
-public class Login_ValidData_TestRunner extends AbstractTestNGCucumberTests {
+public class PIM_Module_Runner extends AbstractTestNGCucumberTests {
 
 }

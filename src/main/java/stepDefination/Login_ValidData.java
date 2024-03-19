@@ -16,9 +16,9 @@ import utilities.TestBase;
 
 public class Login_ValidData extends TestBase {
 
-	private WebDriver driver;
+//	private WebDriver driver;
 	private LoginPage lp;
-	
+
 	ScreenshotUtil su = new ScreenshotUtil();
 
 	@Given("user is on login page")

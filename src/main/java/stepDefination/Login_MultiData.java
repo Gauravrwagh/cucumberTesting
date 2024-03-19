@@ -28,6 +28,7 @@ public class Login_MultiData extends TestBase {
 
 		lp = new LoginPage(TestBase.driver);
 	}
+//	When user enter username as <username> and password as <password>
 
 	@When("^user enter username as (.*) and password as (.*)$")
 	public void user_enter_username_as_and_password_as(String username, String password) {

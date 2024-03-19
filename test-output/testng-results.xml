@@ -1,213 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="6" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="193581" started-at="2024-03-09T12:08:03 IST" finished-at="2024-03-09T12:11:16 IST">
+  <suite name="Default suite" duration-ms="167762" started-at="2024-03-16T19:11:31 IST" finished-at="2024-03-16T19:14:19 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PIM_Module_Runner@1f27fae]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="193581" started-at="2024-03-09T12:08:03 IST" finished-at="2024-03-09T12:11:16 IST">
-      <class name="runner.Login_MultiData_TestRunner">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="setUpClass" is-config="true" duration-ms="432" started-at="2024-03-09T12:08:03 IST" finished-at="2024-03-09T12:08:03 IST">
+    <test name="Default test" duration-ms="167762" started-at="2024-03-16T19:11:31 IST" finished-at="2024-03-16T19:14:19 IST">
+      <class name="runner.PIM_Module_Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.PIM_Module_Runner@1f27fae]" name="setUpClass" is-config="true" duration-ms="455" started-at="2024-03-16T19:11:31 IST" finished-at="2024-03-16T19:11:32 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@195851e]]>
+                <![CDATA[org.testng.TestRunner@1272109]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="9635" started-at="2024-03-09T12:08:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:08:13 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PIM_Module_Runner@1f27fae]" name="runScenario" duration-ms="89696" started-at="2024-03-16T19:11:32 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-16T19:13:01 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Login Functionality with Multiple Data"]]>
+                <![CDATA["Test PIM functionality"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["verify PIM Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="39157" started-at="2024-03-09T12:08:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:08:52 IST">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.PIM_Module_Runner@1f27fae]" name="runScenario" duration-ms="77492" started-at="2024-03-16T19:13:01 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-16T19:14:19 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify Login Functionality with Multiple Data"]]>
+                <![CDATA["Test PIM functionality"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Functionality"]]>
+                <![CDATA["verify PIM Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="41057" started-at="2024-03-09T12:08:52 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:09:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Login Functionality with Multiple Data"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="17892" started-at="2024-03-09T12:09:33 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:09:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify login with valid data members"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="35638" started-at="2024-03-09T12:09:51 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:10:27 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify User Registration Functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["registration Functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='navbar-right hidden-xs']//a[2]"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99632c7c050bfbdaba6c852c1dffc837, findElement {using=xpath, value=//div[@class='navbar-right hidden-xs']//a[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65183/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99632c7c050bfbdaba6c852c1dffc837]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='navbar-right hidden-xs']//a[2]"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99632c7c050bfbdaba6c852c1dffc837, findElement {using=xpath, value=//div[@class='navbar-right hidden-xs']//a[2]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65183/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99632c7c050bfbdaba6c852c1dffc837
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at pages.OpenCartRegistrationPage.clickOnRegisterButton(OpenCartRegistrationPage.java:31)
-at stepDefination.RegisterUser_OpenCart.user_select_register_option(RegisterUser_OpenCart.java:31)
-at ✽.user select register option(file:///C:/Users/Dell/eclipse-workspace/cucumberTesting/src/main/resources/Features/RegisterUser.feature:5)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="runScenario" duration-ms="49698" started-at="2024-03-09T12:10:27 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-09T12:11:16 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["verify student registration functionality"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["register student"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9d9945b5ec57d9248d1971f05935f89, findElement {using=id, value=firstName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65213/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e9d9945b5ec57d9248d1971f05935f89]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#firstName"}
-  (Session info: chrome=122.0.6261.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.12.1', revision: '8e34639b11'
-System info: os.name: 'Windows 11', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_321'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e9d9945b5ec57d9248d1971f05935f89, findElement {using=id, value=firstName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65213/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e9d9945b5ec57d9248d1971f05935f89
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at pages.StudentRegistrationDemo_QA.enterDetails(StudentRegistrationDemo_QA.java:47)
-at stepDefination.TC001_SubmitRegestrationForm.user_enters_details(TC001_SubmitRegestrationForm.java:51)
-at ✽.user enters details(file:///C:/Users/Dell/eclipse-workspace/cucumberTesting/src/main/resources/Features/StudentRegistration.feature:6)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Login_MultiData_TestRunner@1f27fae]" name="tearDownClass" is-config="true" duration-ms="25" started-at="2024-03-09T12:11:16 IST" finished-at="2024-03-09T12:11:16 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.PIM_Module_Runner@1f27fae]" name="tearDownClass" is-config="true" duration-ms="81" started-at="2024-03-16T19:14:19 IST" finished-at="2024-03-16T19:14:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.Login_MultiData_TestRunner -->
+      </class> <!-- runner.PIM_Module_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
